@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.o">
+<title>Document</title>
+<link rel="stylesheet" href="style.css">
+<style>
+  header {
+    background-color:#ADD8E6;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .flex-container {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+  }
+
+  .flex-container > div:last-child {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 400px;
+  }
+
+  img {
+    max-width: 500px;
+    height: 300px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  ul {
+    font-size: 20px;
+  }
+</style>
+</head>
+<body>
+<nav class="navbar">
+<ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#portfolio">Participations & Certifications</a></li>
+<li><a href="#contact">Contact Me</a></li>
+</ul>
+</nav>
+<section id="home">
+<div class="main">
+<h1 class="headings">I AM <br> JEEVANANDAM</h1>
+</section>
+
+<section id="about">
+<div id="pic">
+<h1 class="headings"><ABOUT ME</h1>
+<img src="https://tse3.mm.bing.net/th?id=OIP.Pu2hCScdzGHIpg_NYSD86gHaG7&pid=Api&P=0&h=180" alt="your photo">
+<div id="intro">
+<h4>ABOUT ME</h4><br>
+<h6><p>Hi..This is JEEVA.And i had completed my schoolings @ jai saradha matric higher secondary school with a descent scoring of 91%.Seeking a beginner role to enhance and explore my technical knowledge gained at NGP University in the last four years. I hold a B.Tech degree from NGP college and won the Hackathon challenge held at various Universities. I am an enthusiastic, self-motivated, reliable, responsible, and hardworking person. I am a mature team worker and adaptable to all challenging situations. I am able to work well both in a team environment as well as using my own initiative. I can work well under pressure and adhere to strict deadlines.</p></h6>
+</section>
+
+<section id="portfolio">
+<body style="background-color:#90EE9;">
+  <header>
+    <h1>My PARTICIPATIONS &amp; CERTIFICATIONS</h1>
+  </header>
+  <div class="flex-container">
+    <div>
+<h2>Participations</h2>
+<dt><h4 style="color:Tomato;">TNSI Ideathon</h4></dt>
+ 
+  <dd>TNSI is a student inovation startup program conducted by the goverment there are lot of stages in the TNSI IDEATION program the stages are Stage 1: Entrepreneurship Awareness Programmes, Stage 2: Ideation (IDEA) Camp, Stage 3: Boot Camp, Stage 4. State Level Pitch and Stage 5. Fellowship/Prototyping we have completed a 3 round with our idea .</dd>
+<dt><h4 style="color:Tomato;">KG collage hackathon</h4></dt>
+
+  <dd>In the year 2022 we have attended a hackathon in the KG collage. In that we have proposed a solution in the health care domain. Our solution is Automatic Hand Sanitizer .In that we have gone for 2 rounds with our project.</dd>
+<dt><h4 style="color:Tomato;">Kumaraswamy collage 24hrs hacakathonK</h4></dt>
+ 
+<dd>In the year 2022 we have attended a hackothon in the kumaraswamy collage there we attended a 24hrs hackathon in the healthcare domain.In that we have selected for 2 rounds. there are 3 rounds in the hackathon. </dd>
+</dl>
+     
+    </div>
+    <div>
+      <h2 style="margin-right: 80px;">Certifications</h2>
+      <ul>
+        <li><h4>Nptel certificate in JAVA</h4></li>
+        <li><h4>Nptel certificate in C</h4></li>
+        <li><h4>Matlab certificate</h4></li>
+      </ul>
+    </div>
+  </div>
+ 
+
+
+<section class="contact" id="contact">
+<h1 class="headings"> CONTACT</h1>
+<form action="#">
+<div class="input-box">
+<input type="text" placeholder="Full Name">
+<input type="number" placeholder="Contact Number">
+</div>
+<textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>  
+<input type="submit" value="Send Message" class="btn">
+</form>
+</section>
+
+<style>
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+html{
+scroll-behavior:smooth;
+}
+.navbar{
+display: flex;
+justify-content: center;
+align-items: center;
+background-color:blue;
+position:sticky;
+top: 0;
+}
+.navbar ul{
+dispaly:flex;
+list-style:none;
+margin:20px 0px;
+}
+.navbar ul li{
+font-family: century;
+font-size:1.1rem;
+font-weight:bold;
+}
+.navbar ul li a{
+text-decoration:none;
+color: white;
+padding:8px 25px;
+transition:all .5c ease;
+}
+.navbar ul li a:hover{
+background-color:white;
+color:black;
+box-shadow:0 0 1px white;
+}
+#home{
+display:flex;
+flex-direction:column;
+background-color:rgba(0,0,0,0.5);
+height:840px;
+justify-content:center;
+align-items:center;
+color:white;
+}
+#home::before{
+content:" ";
+position:absolute;
+top: 0;
+right: 0;
+background:url('') no-repeat center center/cover;
+height:900px;
+width:100%;
+z-index:-1;
+opacity: .8;
+}
+.main{
+display:flex;
+flex-direction:column;
+align-items:center;
+position:absolute;
+top:30%;
+left:8%;
+}
+.headings{
+font-family: century;
+font-size: 3rem;
+text-align:center;
+margin:40px 0px;
+}
+.btn{
+padding:10px 35px;
+background-color:transparent;
+border:1px solid white;
+color:white;
+outline:none;
+transition: .6s ease;
+}
+.btn: hover{
+cursor:pointer;
+background-color:white;
+color:black;
+box-shadow:0 0 5px white,0 0 10px white, 0 0 5px white;
+font-weight:bold;
+}
+#about{
+display:flex;
+flex-direction: column;
+background-color:rgba(0,0,0,0.9);
+color:white;
+box-sizing: border-box;
+padding:20px;
+margin-bottom:50px
+}
+#pic{
+display:flex;
+}
+#pic img{
+width:575px;
+height:400px;
+}
+#intro{
+display:flex;
+flex-direction:column;
+text-align:justify;
+padding:10px;
+}
+#intro h2{
+font-size:2rem;
+margin-bottom:20px;
+}
+#portfolio{
+display:flex;
+flex-direction:column;
+background-color:rgba(0,0,0,0.9);
+color:white;
+align-items:center;
+padding: 20px;
+}
+.gallery{
+display:flex;
+flex-wrap:wrap;
+justify-content:space-around;
+box-sizing:border-box;
+}
+.gallery img{
+width:360px;
+height:240px;
+margin:10px;
+}
+.contact h2{
+margin-bottom: 3rem;
+}
+.contact form{
+max-width: 70rem;
+margin: 1rem auto;
+text-align: center;
+margin-bottom: 3rem;
+}
+.contact form .input-box {
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+.contact form .input-box input,
+.contact form textarea{
+width: 100%;
+padding: 1.5rem;
+font-size: 1.6rem;
+color: var(--text-color);
+background: var(--second-bg-color);
+border-radius: .8rem;
+margin: .7rem 0;
+}
+.contact form .input-box input{
+width: 49%;
+}
+.contact form textarea {
+resize: none;
+}
+.contact form .btn{
+margin-top: 2rem ;
+cursor: pointer;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  margin: 20px 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  font-family: century;
+  font-size: 1.1rem;
+  font-weight: bold;
+ 
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 8px 25px;
+  transition: all 0.5s ease;
+}
+
+.navbar ul li a:hover {
+  background-color: white;
+  color: blue;
+  box-shadow: 0 0 1px white;
+}
+
+#home {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 840px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+#home::before {
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZlGcxgP7rG3NqrqLfB7v1xfOH3C7kSymFZw&usqp=CAU") no-repeat center center/cover;
+  height: 900px;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.8;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 30%;
+  left: 8%;
+}
+
+.headings {
+  font-family: century;
+  font-size: 3rem;
+  text-align: center;
+  margin: 40px 0px;
+}
+
+.btn {
+  padding: 10px 35px;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  outline: none;
+  transition: 0.6s ease;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  box-shadow: 0 0 5px white, 0 0 10px white, 0 0 5px white;
+  font-weight: bold;
+}
+
+#about {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+  box-sizing: border-box;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+#pic {
+  display: flex;
+}
+
+#pic img {
+  width: 575px;
+  height: 400px;
+}
+
+#intro {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  padding: 10px;
+}
+
+#intro h4 {
+  font-size: 1.6rem;
+  margin-bottom: 20px;
+}
+
+#portfolio {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+  align-items: center;
+  padding: 20px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  box-sizing: border-box;
+}
+
+.gallery img {
+  width: 360px;
+  height: 240px;
+  margin: 10px;
+}
+
+.contact h1 {
+  margin-bottom: 3rem;
+}
+
+.contact form {
+  max-width: 70rem;
+  margin: 1rem auto;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.contact form .input-box {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.contact form .input-box input,
+.contact form textarea {
+  width: 100%;
+  padding: 1.5rem;
+  font-size: 1.6rem;
+  color:black;
+  background-color:white;
+  border-radius: 0.8rem;
+  margin: 0.7rem 0;
+}
+
+.contact form .input-box input {
+  width: 49%;
+}
+
+.contact form textarea {
+  resize: none;
+}
+
+.contact form .btn {
+  margin-top: 2rem;
+  cursor: pointer;
+}
+</style>
+</body>
+</html>
